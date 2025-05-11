@@ -20,6 +20,8 @@ p{
 }
 
 body{
+    /*background: lightblue url(imagens/f0b.jpeg) center center no-repeat fixed;
+    background-size: cover; */
     background-image:linear-gradient(to bottom, var(--cor0), transparent 40%);
 }
 
@@ -53,6 +55,7 @@ main > img{
     max-width: 40%;
     border-radius: 20px;
     box-shadow: 0px 0px 8px rgb(0, 0, 0);
+    display: inline-block;
 }
 
 footer > p{
@@ -61,5 +64,5 @@ footer > p{
     color: white;
     text-align: center;
     font-size: 16px;
-    margin-top: 10px;
+    margin: auto;
 }
